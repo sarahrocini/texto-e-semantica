@@ -1,31 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px 10px;
+}
+
 header {
-    color:#0d304d;
+    color: #0d304d;
     font-family: 'Segoe UI', sans-serif;
     text-align: center;
     font-size: 30px;
     line-height: 1;
     padding: 10px 0px;
-    
 }
 
 #news {
     letter-spacing: 4px;
 }
 
-aside {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    font-family: 'Segoe UI';
-    color: #0d304d;
-    font-size: 10px;
-    padding: 10px 0px;
-}
-
-section {
-    text-align: left;
+main {
+    margin: 20px 40px 0 40px;
 }
 
 h2 {
@@ -34,15 +30,11 @@ h2 {
     font-size: 40px;
     line-height: 1.2;
 }
+
 h3 {
     color: #0d304db4;
     font-family: 'Segoe UI';
     font-size: 30px;
-}
-
-hr {
-    border: 1px solid #0d304d;
-    margin: 20px 0;
 }
 
 p {
@@ -52,6 +44,26 @@ p {
     line-height: 1.5;
 }
 
-main {
-    margin: 20px 40px;
+strong {
+    color: pink;
+}
+
+hr {
+    border: 1px solid #0d304d;
+    margin: 20px 0;
+}
+
+aside {
+    text-align: center;
+}
+
+spam {
+    background-color: pink;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: #0d304d;
+    font-size: 10px;
 }
